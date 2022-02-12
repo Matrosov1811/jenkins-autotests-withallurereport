@@ -27,6 +27,9 @@ public class TestBase {
         Configuration.browser = browser;
         Configuration.remote = remoteUrl;
 
+//        Configuration.browser = "chrome";
+//        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
 
